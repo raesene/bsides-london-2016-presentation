@@ -2,6 +2,10 @@
 
 ## Security Myths - Security Legends
 
+Note:
+
+This talk is designed to provide an introduction to docker and containerization, talk about the security mechanisms used by containers to isolate processes, some of the security of the docker engine and look at practical considerations around testing and securing docker containers.
+
 ---
 
 # About Me
