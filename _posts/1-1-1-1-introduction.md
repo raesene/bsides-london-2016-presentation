@@ -18,3 +18,13 @@ This talk is designed to provide an introduction to docker and containerization,
 ---
 
 <img src="/images/home.jpg" width="75%"/>
+
+
+---
+
+## Topics
+
+ - Docker Introduction
+ - Container Security
+ - Attackers View of Containers
+ - Defenders View of Containers
