@@ -11,3 +11,20 @@
 --
 
 <img src="images/docker-compose.png">
+
+---
+
+# Useful uses for Docker
+
+---
+
+## Script Isolation Demo
+
+---
+
+## Pentest Environment Automation Demo
+
+
+
+
+
