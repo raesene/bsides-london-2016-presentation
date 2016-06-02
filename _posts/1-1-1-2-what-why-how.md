@@ -56,4 +56,4 @@ Some of the key benefits of docker are around the ease and size of deployment.  
 
 Note:
 
-The demo (located in demos/demo1/) uses a screen file to quickly start up 10 containers to show the speed of start-up compared to VMs
+The demo (located in demos/demo1/) uses a screen file to quickly start up 10 containers to show the speed of start-up compared to VMs.  Command for starting is in "Demo Notes"
