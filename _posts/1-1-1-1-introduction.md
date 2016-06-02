@@ -13,7 +13,6 @@ This talk is designed to provide an introduction to docker and containerization,
  - 'X' Years in IT/Information Security
  - 'X' - 5 Years in Security Testing
  - Managing Consultant at NCC Group PLC
- - Contributor at Security Stack Exchange
 
 ---
 
@@ -26,5 +25,8 @@ This talk is designed to provide an introduction to docker and containerization,
 
  - Docker Introduction
  - Container Security
- - Attackers View of Containers
- - Defenders View of Containers
+ - Attackers/Defenders View of Docker
+
+Note:
+
+The presentations is involved in three areas mainly.  The first looks at a bit of the background to docker and explores some of its use cases and benefits for security work.  The second examines container security and looks at how containers contain.  The third takes a practical look at Docker security from the perspective of an attacker and defender.

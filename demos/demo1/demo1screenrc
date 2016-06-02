@@ -1,0 +1,14 @@
+startup_message off
+
+defscrollback 10000
+
+screen -t ubu1 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu2 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu3 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu4 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu5 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu6 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu7 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu8 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu9 docker run -it --rm ubuntu:latest /bin/bash
+screen -t ubu10 docker run -it --rm ubuntu:latest /bin/bash

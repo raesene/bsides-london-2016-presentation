@@ -1,0 +1,11 @@
+Demo Notes
+--
+
+Setup
+--
+xhost +local:root
+
+
+Demo1 - screen -c demo1screenrc
+Demo2 - docker run -it --name demo2 -v `pwd`:/script busybox
+Demo3 - docker-compose up
