@@ -4,4 +4,4 @@ My slidedeck and notes for Presentation at [B-Sides London 2016](B-Sides London 
 
 Markdown files for the presentation are in the [_posts](https://github.com/raesene/bsides-london-2016-presentation/tree/master/_posts) directory and render ok on github.
 
-To run the presentation just install Ruby and jekyll, then run ```jekyll serve -H 127.0.0.1``` and navigate to http://127.0.0.1:4000 in your browser of choice.
+Unsurprisingly you can run this presentation from inside docker :)  ```docker run -d -p 4000:4000 raesene/bsides_presentation``` runs it and after that it should be accessible on <yourip>:4000
