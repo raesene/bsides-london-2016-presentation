@@ -2,7 +2,7 @@ version: '2'
 
 services: 
   firefox:
-    image: conf_firefox
+    image: sassmann/debian-firefox
     links:
      - conf_burp:burp_test
     volumes:
@@ -12,7 +12,7 @@ services:
       DISPLAY: $DISPLAY
       HTTP_PROXY: http://burp_test:8080
   conf_burp:
-    image: conf_burp
+    image: raesene/burp-free
     expose: 
      - "8080"
     volumes:
