@@ -1,18 +1,24 @@
-chrome:
-  image: conf_chrome
-  links:
-   - conf_burp:burp_test
-  volumes:
-   - /tmp/.X11-unix:/tmp/.X11-unix
-  environment:
-    DISPLAY: $DISPLAY
-    HTTP_PROXY: http://burp_test:8080
-conf_burp:
-  image: conf_burp
-  expose: 
-   - "8080"
-  volumes:
-    - /tmp/.X11-unix:/tmp/.X11-unix
-  environment:
-    DISPLAY: $DISPLAY
+version: '2'
 
+services: 
+  firefox:
+    image: conf_firefox
+    links:
+     - conf_burp:burp_test
+    volumes:
+     - /tmp/.X11-unix:/tmp/.X11-unix
+     - data:/data
+    environment:
+      DISPLAY: $DISPLAY
+      HTTP_PROXY: http://burp_test:8080
+  conf_burp:
+    image: conf_burp
+    expose: 
+     - "8080"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - data:/data
+    environment:
+      DISPLAY: $DISPLAY
+volumes:
+  data: {}
