@@ -3,6 +3,7 @@
 Note:
 
 The Docker ecosystem is constantly expanding with both new commercial products and new open source projects (> 50 projects in the github org) so it can be hard to keep track of what's going on.  The next bit is just to discuss some of the key projects.
+
 --
 
 <img src="images/docker-engine.png">
@@ -18,6 +19,7 @@ Core of docker.  Linux daemon which is responsible at a high level for managing 
 Note:
 
 Docker registries can be thought of a bit like an app. store.  Docker hub which is the public default instance run by Docker has a very large number of images which can be downloaded and used.  Allow you to get a full running instance of a variety of apps with one command.
+
 --
 
 <img src="images/docker-compose.png">

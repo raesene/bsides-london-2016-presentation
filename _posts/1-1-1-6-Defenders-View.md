@@ -46,6 +46,14 @@ Cover attack surface, and also reduced patching requirements of smaller containe
 
 ---
 
+## Things to look for
+
+ - Redundant images/containers
+ - Secrets Management
+ - Container History
+
+---
+
 # Tools
 
  - Docker Bench
@@ -53,8 +61,7 @@ Cover attack surface, and also reduced patching requirements of smaller containe
 
 ---
 
-## Things to look for
+ # Further Reading
 
- - Redundant images/containers
- - Secrets Management
- - Container History
+  - Abusing Privileged and Unprivileged Linux Containers (https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/june/abusing-privileged-and-unprivileged-linux-containers/)
+  - Understanding and Hardening Linux Containers (https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2016/april/understanding-and-hardening-linux-containers/)
