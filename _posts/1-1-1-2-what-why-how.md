@@ -7,7 +7,7 @@
 
 Note:
 
- - Microsoft are working to integrate docker into the upcoming release of Windows Server 2016
+ - Microsoft are working to integrate docker into the upcoming release of Windows Server 2016 (coming September 2016)
  - Lots of activity from non-docker staff on engine from https://blog.docker.com/2016/05/open-source-docker-part-1-people/ - 58% of commits to the project in the last year were not from docker staff or other maintainers
  - IBM have staff who are on the core Docker team also have commercial services which use containerization and docker for application isolation.
  - From https://speakerdeck.com/jbeda/containers-at-scale "Everything at Google runs in a container"

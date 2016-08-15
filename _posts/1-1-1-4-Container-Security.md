@@ -61,7 +61,7 @@ One of the points here relates to protecting containers against a malicious cont
 
 Note:
 
-https://github.com/docker/docker/blob/master/oci/defaults_linux.go lists the default capabilities
+https://github.com/docker/docker/blob/master/oci/defaults_linux.go lists the default capabilities.  Worth noting that CAP_NET_RAW is one of the default capabilities and should likely be disabled if not needed as it introduces some risks (e.g. DoS, ARP spoofing)
 
 ---
 
@@ -74,7 +74,7 @@ Note:
 
 Reason for the use of cgroups to limit access to devices is that the dev system is not namespaced.
 cpu, memory, blkio, devices, network, freezer, pid
-PID cgroup is a new one used for blocking fork bombs amongst other things https://github.com/docker/docker/pull/18697
+PID cgroup is a new one used for blocking fork bombs amongst other things https://github.com/docker/docker/pull/18697 . Worth noting that the PID cgroup is not enabled by default on Docker
 
 ---
 
